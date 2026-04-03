@@ -1,13 +1,19 @@
 {
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "src/main.tsx",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "license": "Creative Commons",
+  "author": "David Trick",
+  "repository": {
+    "type":"git"
+    "url":"git+https://github.com/trickyd9/trickyd9.github.io"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
